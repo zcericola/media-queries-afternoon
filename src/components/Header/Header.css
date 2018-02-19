@@ -1,0 +1,111 @@
+.Header {
+    background-color:#212529;
+    width: auto;
+    height: 54px;
+    font-size: 1.25em;
+    line-height: 1.15em;
+    text-align: center;   
+    margin: 0;       
+    
+    
+
+}
+
+.nav-logo {    
+    float: left;
+    color: #feca1a;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+
+.navBar {
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    display: flex;        
+    float: right;
+    margin-right: 2em;   
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+li {
+    margin: 0 20px;
+    list-style: none;
+}
+
+.hamburger-menu {    
+    display: block;
+    box-sizing: border-box;
+    float: right;
+    background-color: #feca1a;
+        font-size: 12px;
+        right: 0;
+        padding: 5px;    
+        margin: 1.4% 2em;   
+        color: #fff;
+        border: 0;        
+        font-family: Montserrat,       
+        sans-serif;
+        border-radius: .25rem;
+        cursor: pointer;
+
+}
+
+#header-background {
+    margin: -0.5em;
+    padding: 0;
+    width: 100%;
+    
+
+}
+
+.img-container {
+height: 2000px;
+width: 100%;
+background-image: url('../../assets/header-bg.jpg');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: left-top;
+
+}
+
+.hamburger-drop-down {
+    position: absolute;
+    width: 100%;
+    display: none;
+    background-color: #212529;
+    color: white;       
+    margin: 0 auto;
+    padding: .3em;
+}
+
+.hamburger-drop-down li {
+    margin: 2em;
+}
+
+.show-drop-down {
+    display: block;
+}
+
+
+@media screen and (min-width: 992px){
+.hamburger-menu {
+    display: none;
+    
+}
+
+
+
+    
+}
+
+@media screen and (max-width: 991px) {
+    .navBar {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+}
